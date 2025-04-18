@@ -21,6 +21,7 @@
                 <li>Muallif hech qanday kitob yozmagan.</li>
             @endforelse
         </ul>
+        
     </div>
 
     <div>

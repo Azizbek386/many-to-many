@@ -19,6 +19,7 @@
                 <li>{{ $author->name }}</li>
             @endforeach
         </ul>
+        
     </div>
 
     <div>

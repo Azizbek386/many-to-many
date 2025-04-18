@@ -28,7 +28,8 @@
                 <div class="form-text">Bir nechta kitob tanlash uchun <strong>CTRL</strong> tugmasini bosib turib tanlang.</div>
             </div>
         
-            <button type="submit" class="btn btn-primary">Saqlash</button>
+            <button type="submit" class="btn btn-primary">Saqlash<
+                /button>
         </form>
         
     </div>

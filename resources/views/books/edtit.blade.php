@@ -18,6 +18,7 @@
                 value="{{ $book->title }}" >
         </div>
 
+        
         <div class="mb-3">
             <label for="description" class="form-label">Kitob Tavsifi</label>
             <textarea class="form-control" id="description" name="description" rows="3" placeholder="Kitob tavsifini kiriting"

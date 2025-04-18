@@ -15,6 +15,7 @@
                 <th>Amallar</th>
             </tr>
         </thead>
+        
         <tbody>
             @foreach ($books as $book)
                 <tr>

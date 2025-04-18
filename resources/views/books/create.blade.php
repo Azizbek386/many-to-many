@@ -20,6 +20,7 @@
             <textarea class="form-control" id="description" name="description" rows="3"
                 placeholder="Kitob tavsifini kiriting"></textarea>
         </div>
+        
 
         <div class="mb-3">
             <label for="authors" class="form-label">Mualliflarni Tanlang</label>
