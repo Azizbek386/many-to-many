@@ -93,6 +93,7 @@ class AuthorController extends Controller
          $author->books()->sync(ids: $request->books); // detach ham ishlayddi, ham update ishlaydi  
      
          return redirect()->route('authors.index');
+         
      }
      
      
