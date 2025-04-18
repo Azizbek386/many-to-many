@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('author_book', function (Blueprint $table) {
             $table->foreignId('book_id')->constrained()->onDelete('cascade');
+            
             $table->foreignId('author_id')->constrained()->onDelete('cascade');
             $table->primary(['book_id', 'author_id']);
         });
@@ -24,5 +25,6 @@ return new class extends Migration
     public function down(): void
     {
         Schema::dropIfExists('author_book');
+
     }
 };  
